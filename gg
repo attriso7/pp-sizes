@@ -1,23 +1,22 @@
-siz = int(input("What's your penis size!!\nshh it will be a secret \n\n>> "))
+siz = int(input("What's your pp size!!\nshh it will be a secret \n\n>> "))
 sizee = f'{siz} inches'
 size = sizee
 if siz == 1:
     print(f' {sizee},!! You a fuckin child or what mate?')
-if siz == 2:
+elif siz == 2:
     print(f" {sizee},!! That didn't quite grew.. did it?")
-if siz == 3:
+elif siz == 3:
     print(f" {sizee},!! You are barely there young man")
-if siz == 4:
+elif siz == 4:
     print(f"{sizee},!! erected or without erection?")
-if siz == 5:
+elif siz == 5:
     print(f"{sizee},!! Ahh she starts to feel it..")
-if siz == 6:
+elif siz == 6:
     print(f"{sizee},!! uhh average")
-if siz == 7:
+elif siz == 7:
     print(f"{sizee},!! that's the golden number ma man")
-if siz == 8:
+elif siz == 8:
     print(f"{sizee},!! IT's started hurting.. Ahh..")
-if siz == 9:
+elif siz == 9:
     print(f"{sizee},!! You monster")
-if siz >= 10:
-    print("That's out of my scale")
+else : print("That's out of my scale")
