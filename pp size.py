@@ -1,4 +1,6 @@
-
+# i was just bored and wanted to practice the if-else-elif statement i just learned
+# so i made this fun line of code for this
+# do get offended if you must as this are my views!!
 
 siz = int(input("What's your pp size!!\nshh it will be a secret \n\n>> "))
 sizee = f'{siz} inches'
