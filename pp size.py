@@ -1,10 +1,14 @@
 # i was just bored and wanted to practice the if-else-elif statement i just learned
 # so i made this fun line of code for this
 # do get offended if you must as this are my views!!
+try:
+    siz = int(input("What's your pp size!!\nshh it will be a secret \n\n>> "))
+    sizee = f'{siz} inches'
+    size = sizee
+except:
+    print("Please put a numeric value.. Bitch!!\n have some fuckin sence")
+    quit()
 
-siz = int(input("What's your pp size!!\nshh it will be a secret \n\n>> "))
-sizee = f'{siz} inches'
-size = sizee
 if siz == 1:
     print(f' {sizee},!! You a fuckin child or what mate?')
 elif siz == 2:
